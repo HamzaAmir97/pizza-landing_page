@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'pl' : 'en');
+    setLanguage(language === 'en' ? 'ar' : 'en');
     // Add actual language switching logic here
   };
 
