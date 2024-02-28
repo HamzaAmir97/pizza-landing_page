@@ -5,19 +5,22 @@ import Card from "../ui/Card";
 const HeroSlider = () => {
   return (
     <section className="bg-red-600 text-white py-16 relative overflow-hidden">
+
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* Text */}
+
+
         <div className="text-center md:text-left max-w-xl z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Pyszna pizza w CheesTer – <br />
-            <span className="text-yellow-300">Nazwa miasta</span>
+            Pizza from parallel universe<br />
+            <span className="text-yellow-300"> <strong>Star Pizza</strong></span>
           </h2>
-          <p className="text-lg mb-6">Zamów pizzę z pieca – prosto do domu!</p>
+          <p className="text-lg mb-6">welcome to the best pizza in the world</p>
           <a
             href="#menu"
             className="bg-yellow-300 text-red-700 px-6 py-3 font-bold rounded hover:bg-yellow-400 transition"
           >
-            Zobacz menu
+           Order now
           </a>
         </div>
 
