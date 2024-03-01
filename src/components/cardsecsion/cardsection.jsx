@@ -22,7 +22,7 @@ const CardSection = () => {
           </Card>
 
           <Card className="bg-white text-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-            <div className="text-center">
+            <div className="text-center bg-amber-100">
               <div className="text-4xl text-red-600 mb-4">⭐</div>
               <h3 className="text-xl font-bold mb-2">Najlepsza Jakość</h3>
               <p className="text-gray-600">Gwarantujemy najwyższą jakość naszych produktów.</p>
