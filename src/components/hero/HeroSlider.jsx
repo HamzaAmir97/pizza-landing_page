@@ -4,7 +4,7 @@ import Card from "../ui/Card";
 
 const HeroSlider = () => {
   return (
-    <section className="bg-red-600 text-white py-16 relative  h-screen  w-screen overflow-hidden">
+    
 
       <div className="container mx-auto px-4 flex flex-col md:flex-row lg:flex-row items-center justify-between">
         {/* Text */}
@@ -35,8 +35,7 @@ const HeroSlider = () => {
         </div>
       </div>
 
-      {/* Decorative leaves (اختياري - عبر CSS لاحقاً أو صورة خلفية) */}
-    </section>
+    
   );
 };
 
