@@ -10,11 +10,11 @@ const App = () => {
    <>
  
    
-     
+     <div className="flex flex-col  items-start justify-start bg-red-600 text-white relative  h-screen  w-screen overflow-hidden">
        <HeroSlider />
       <CardSection />
 
-    
+      </div>
     </>
   )
 }

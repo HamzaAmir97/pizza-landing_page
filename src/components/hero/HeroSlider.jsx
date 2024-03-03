@@ -6,7 +6,7 @@ const HeroSlider = () => {
   return (
     
 
-      <div className="container mx-auto px-4 flex flex-col md:flex-row lg:flex-row items-center justify-between">
+      <div className="absolute top-0 left-0 right-0 mx-auto px-4 flex flex-col md:flex-row lg:flex-row items-center justify-between">
         {/* Text */}
 
 
