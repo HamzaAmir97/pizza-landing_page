@@ -10,7 +10,7 @@ const App = () => {
    <>
  
    
-     <div className="flex flex-col  items-start justify-start bg-red-600 text-white relative  h-screen  w-screen overflow-hidden">
+     <div className="flex flex-col p-10  gap-10 items-start justify-start bg-red-600 text-white relative  h-screen  w-screen overflow-hidden">
        <HeroSlider />
       <CardSection />
 
