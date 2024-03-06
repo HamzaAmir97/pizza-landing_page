@@ -30,13 +30,38 @@ const Navbar = () => {
   return (
    
    <div className= ' sticky top-0 z-50 rounded-b-full   bg-yellow-600 h-15 w-screen '>
-   <div className=' flex flex-col md:flex-row lg:flex-row items-center justify-between'>
+
+     {/* Navbar desktop */}
+   <div className=' flex justify-center '>
    
-    
+
+     <ul className='flex flex-row justify-center items-center p-2'> 
+      <li>
+        <a href='/' className='text-white text-2xl font-bold p-5'>Home</a>
+      </li>
+      <li>
+        <a href='/menu' className='text-white text-2xl font-bold p-5'>Menu</a>
+      </li>
+      <li>
+        <a href='/about' className='text-white text-2xl font-bold p-5'>About</a>
+      </li>
+      <li>
+        <a href='/contact' className='text-white text-2xl font-bold'>Contact</a>
+      </li>
+     </ul>
    </div>
+  {/* Navbar mobile */}
 
-
+   <div className='lg:hidden flex flex-row justify-center items-center p-2'>
+    <ul className='flex flex-row justify-center items-center p-2'> 
+      <li>
+        <a href='/' className='text-white text-2xl font-bold p-5'>Home</a>
+      </li>
+    </ul>
           </div>
+
+   </div>
+        
   );
 
 };
