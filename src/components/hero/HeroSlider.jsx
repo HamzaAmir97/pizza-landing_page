@@ -18,7 +18,7 @@ const HeroSlider = () => {
           <p className="text-lg mb-6">welcome to the best pizza in the world</p>
           <a
             href="#menu"
-            className="bg-yellow-300 text-red-700 px-6 py-3 font-bold rounded hover:bg-yellow-400 transition"
+            className="bg-yellow-300 text-red-700 px-6 py-3 font-bold rounded hover:bg-yellow-400 transition hover:text-white"
           >
            Order now
           </a>
