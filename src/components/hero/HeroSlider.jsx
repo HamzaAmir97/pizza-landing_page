@@ -30,7 +30,7 @@ const HeroSlider = () => {
             src="/images/pizza-hero.png"
             alt="Pizza"
             className=" shadow-xl rounded-xl
-  w-[300px] md:w-[450px] drop-shadow-lg  transition delay-10 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+            w-[300px] md:w-[450px] drop-shadow-lg  transition delay-10 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
           />
         </div>
       </div>

@@ -1,23 +1,40 @@
 
 import './App.css'
 import HeroSlider from './components/hero/HeroSlider'
-import React, { StrictMode } from 'react';
-
+import React from 'react';
 import CardSection from './components/cardsecsion ';
+
 const App = () => {
   return (
-   
-   <>
-   
-   <h1 className='text-white text-center text-4xl font-bold  bounce '>Hello</h1>
-   
-     <div className="flex flex-col p-10  gap-10 items-start justify-start bg-red-600 text-white relative  h-auto  w-screen ">
-     
-       <HeroSlider />
-       </div>
-      <CardSection />
 
-     
+    <>
+
+
+      <body className="flex flex-col  gap-10 items-center justify-center bg-red-600 text-white relative   w-screen ">
+
+        <main>
+
+          <div className='flex  items-center justify-center bg-red-600 text-white relative   w-screen '>
+
+                 <h1 className='text-white text-center text-4xl font-bold  float-right '>Hello</h1>
+          </div>
+
+          <HeroSlider />
+          <CardSection />
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+
+      </body>
     </>
   )
 }
