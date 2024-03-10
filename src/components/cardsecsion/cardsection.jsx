@@ -6,10 +6,10 @@ const CardSection = () => {
       return (
 
 
-
+       <div>
       <h1 className='text-white text-center text-4xl font-bold  float-right '>Hello</h1>
 
-      
+{/*       
       // <div className=" px-4 mt-16">
       //   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       //     <Card  variant='outlined' className="bg-white text-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
@@ -37,10 +37,12 @@ const CardSection = () => {
       //     </Card>
       //   </div>
       // </div>
-    
+     */}
 
-
+   </div>
     )
+
+
 };
 
 export default CardSection;

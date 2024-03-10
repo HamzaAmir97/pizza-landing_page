@@ -2,7 +2,7 @@
 import './App.css'
 import HeroSlider from './components/hero/HeroSlider'
 import React from 'react';
-import CardSection from './components/cardsecsion ';
+
 
 const App = () => {
   return (
@@ -10,18 +10,19 @@ const App = () => {
     <>
 
 
-      <body className="flex flex-col  gap-10 items-center justify-center bg-red-600 text-white relative   w-screen ">
+      <body className="flex flex-col  gap-10 items-center justify-center bg-red-600 text-white  overflow-hidden   w-screen ">
 
         <main>
 
           <div className='flex  items-center justify-center bg-red-600 text-white relative   w-screen '>
+          <HeroSlider />
 
-                 <h1 className='text-white text-center text-4xl font-bold  float-right '>Hello</h1>
+
+          {/* <CardSection /> */}
+
           </div>
 
-          <HeroSlider />
-          <CardSection />
-
+          
 
 
 
