@@ -14,13 +14,13 @@ const App = () => {
 
         <main>
 
-          <div className='flex  items-center justify-center bg-red-600 text-white relative   w-screen '>
+          {/* <div className='flex  items-center justify-center bg-red-600 text-white relative   w-screen '> */}
           <HeroSlider />
 
 
           {/* <CardSection /> */}
 
-          </div>
+          {/* </div> */}
 
           
 
